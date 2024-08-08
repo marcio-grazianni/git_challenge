@@ -8,6 +8,8 @@ const server = http.createServer((req, res) => {
       return respondHello(req, res)
     case "/user-agent": 
       return respondHello(req, res)
+    case "/base64": 
+      return respondHello(req, res)
   }
   // if (req.url === '/') return respondHello(req, res)
 
